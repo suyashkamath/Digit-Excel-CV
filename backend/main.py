@@ -3157,7 +3157,7 @@ app = FastAPI(title="DIGIT CV Unified Processor API - Complete Edition")
 # Enable CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://digit-excel-cv.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
